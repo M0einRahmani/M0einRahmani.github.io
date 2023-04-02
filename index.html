@@ -1,12 +1,274 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="فروش فایل"/>
+    <title>فروش فایل</title>
+    <link rel="stylesheet" href="public/css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-<div>
-    <span>Hello World!</span>
+
+</body>
+</html>
+<body>
+<div id="app">
+    <div>
+        <div class="flex custom-container my-3">
+            <ul class="header-ul">
+                <li><a class="pl-4" href="#">کانال شاد</a></li>
+                <li><a class="pl-4" href="#">درباره ما</a></li>
+            </ul>
+            <ul class="header-ul mr-auto">
+                <li><a class="pl-4" href="#">سوالات متدوال</a></li>
+                <li><a class="" href="#" >ارتباط با ما</a></li>
+            </ul>
+        </div>
+        <hr>
+        <div class="flex custom-container my-3">
+            <h1 class="brand">فروش فايل</h1>
+            <div class="container1" style="margin: 0 auto">
+                <input type="text" placeholder="دنبال چی میگردی؟">
+                <div class="search"></div>
+            </div>
+            <div class="flex justify-between items-center">
+                <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                </svg>
+                <div class="mr-5">
+                    <span>نوینا رحمانی</span>
+                    <div class="avatar">
+                        <img src="public/files/default_user.png" alt="photo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <section class="bg-gray-600 text-white">
+            <div class="banner custom-container flex flex-wrap py-12 items-center justify-center">
+                <div class="r-banner basis-1/2 ">
+                    <a href="#" class="bg-gray-700 flex w-fit rounded-full px-4 py-2">
+                        شروع یادگیری برنامه‌نویسی
+                        <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15m0 0l6.75 6.75M4.5 12l6.75-6.75" />
+                        </svg>
+                    </a>
+                    <h1 class="mt-6 mb-3">آموزش برنامه‌نویسی</h1>
+                    <p class="text-justify text-lg">ما باور داریم که کاربران ایرانی لایق بهترین‌ها هستند، از این رو ما
+                        تمام تلاش خود را می‌کنیم تا بتوانیم فیلم‌ها و مقالات آموزشی بروز و کاربردی را در اختیارتان قرار
+                        دهیم تا با استفاده از آنها بتوانید جزء بهترین‌ها در صنعت طراحی و برنامه‌نویسی وب شوید. ما ادعا
+                        نمی‌کنیم که بهترین هستیم ولی همیشه تمام تلاش خود را می‌کنیم بهترین عملکرد را به شما ارائه
+                        دهیم.</p>
+                </div>
+                <div class="l-banner basis-1/2 flex justify-end">
+                    <img src="public/files/laravel_and_vue.svg" alt="svg">
+                </div>
+            </div>
+        </section>
+        <section class="bg-gray-200">
+            <div class="product_box custom-container pt-8 pb-16">
+                <div class="header-box">
+                    <a href="#" class="text-2xl text-gray-600 block">جدیدترین دوره‌ها</a>
+                    <a href="#" class="text-2xl text-gray-600 block">مشاهده همه دوره‌ها</a>
+                </div>
+                <div class="flex justify-between">
+                    <a href="#" class="bg-white mt-6 mx-2 rounded-lg relative" style="height: 450px; width: 288px;">
+                        <div class="product-list">
+                            <div class="m-3 align-justify">
+                                <div class="product_img_div">
+                                    <img class="rounded-lg" src="public/files/products/1639485771.png">
+                                </div>
+                                <div class="px-2">
+                                    <h3 class="my-3 font-bold text-lg">
+                                        آموزش لاراول
+                                    </h3>
+                                    <div class="mt-4 mb-3 text-justify">
+                                        در کنار زبان‌های برنامه‌نویسی مختلف، ابزارهای مختلفی برای ایجاد و طراحی وبسایت‌ها وجود دارد که بخش اعظمی از آن‌ها شامل فریمورک‌ها می‌شود. در این بین فریمورک لاراول یکی از...
+                                    </div>
+                                </div>
+                                <div class="bg-gray-50 text-gray-600 rounded-lg py-4 px-2" style="position:absolute; bottom: 6px; width: 265px">
+                                    <div class="flex justify-between align-center">
+                                        <div class="flex">
+                                            <div class="flex items-center">
+                                                <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                                </svg>
+                                                <span class="mr-2 mt-1">10 ساعت</span>
+                                            </div>
+                                        </div>
+                                        <div class="text-green-600 font-bold text-tiny flex items-center">
+                                            <span style="margin-right: 45px">300,000 تومان</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="bg-white mt-6 mx-2 rounded-lg relative" style="height: 450px; width: 288px;">
+                        <div class="product-list">
+                            <div class="m-3 align-justify">
+                                <div class="product_img_div">
+                                    <img class="rounded-lg" src="public/files/products/1639516231.png">
+                                </div>
+                                <div class="px-2">
+                                    <h3 class="my-3 font-bold text-lg">
+                                        آشنایی با امکانات جدید لاراول 7
+                                    </h3>
+                                    <div class="mt-4 mb-3 text-justify">
+                                        لاراول یک وب فریمورک رایگان و متن باز مبتنی بر PHP است که برای اولین بار در سال ۲۰۱۱ توسط Taylor Otwell ساخته شد. هدف از ایجاد لاراول، داشتن چهارچوبی مناسب برای ایجاد اپلیکیشن‌های مبتنی بر طراحی ...
+                                    </div>
+                                </div>
+                                <div class="bg-gray-50 text-gray-600 rounded-lg py-4 px-2" style="position:absolute; bottom: 6px; width: 265px">
+                                    <div class="flex justify-between align-center">
+                                        <div class="flex">
+                                            <div class="flex items-center">
+                                                <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                                </svg>
+                                                <span class="mr-2 mt-1">2 ساعت</span>
+                                            </div>
+                                        </div>
+                                        <div class="text-green-600 font-bold text-tiny flex items-center">
+                                            <span style="margin-right: 45px">30,000 تومان</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="bg-white mt-6 mx-2 rounded-lg relative" style="height: 450px; width: 288px;">
+                        <div class="product-list">
+                            <div class="m-3 align-justify">
+                                <div class="product_img_div">
+                                    <img class="rounded-lg" src="public/files/products/1642532337.jpg">
+                                </div>
+                                <div class="px-2">
+                                    <h3 class="my-3 font-bold text-lg">
+                                        آشنایی با امکانات جدید لاراول 8
+                                    </h3>
+                                    <div class="mt-4 mb-3 text-justify">
+                                        لاراول یک وب فریمورک رایگان و متن باز مبتنی بر PHP است که برای اولین بار در سال ۲۰۱۱ توسط Taylor Otwell ساخته شد. هدف از ایجاد لاراول، داشتن چهارچوبی مناسب برای ایجاد اپلیکیشن‌های مبتنی بر طراحی ...
+                                    </div>
+                                </div>
+                                <div class="bg-gray-50 text-gray-600 rounded-lg py-4 px-2" style="position:absolute; bottom: 6px; width: 265px">
+                                    <div class="flex justify-between align-center">
+                                        <div class="flex">
+                                            <div class="flex items-center">
+                                                <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                                </svg>
+                                                <span class="mr-2 mt-1">2 ساعت</span>
+                                            </div>
+                                        </div>
+                                        <div class="text-green-600 font-bold text-tiny flex items-center">
+                                            <span style="margin-right: 45px">رایگان</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="bg-white mt-6 mx-2 rounded-lg relative" style="height: 450px; width: 288px;">
+                        <div class="product-list">
+                            <div class="m-3 align-justify">
+                                <div class="product_img_div">
+                                    <img class="rounded-lg" src="public/files/products/1642538118.png">
+                                </div>
+                                <div class="px-2">
+                                    <h3 class="my-3 font-bold text-lg">
+                                        آموزش جاوااسکریپت
+                                    </h3>
+                                    <div class="mt-4 mb-3 text-justify">
+                                        دوره آموزش جاوااسکریپت قدم ابتدایی یادگیری جاوااسکریپت در چارت مهارت یادگیری جاوااسکریپت محسوب می‌شود و ما قصد داریم در قدم ابتدایی شما را با موارد مختلفی از جاوااسکریپت آشنا کنیم و مسیر شما برای...
+                                    </div>
+                                </div>
+                                <div class="bg-gray-50 text-gray-600 rounded-lg py-4 px-2" style="position:absolute; bottom: 6px; width: 265px">
+                                    <div class="flex justify-between align-center">
+                                        <div class="flex">
+                                            <div class="flex items-center">
+                                                <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                                </svg>
+                                                <span class="mr-2 mt-1">8 ساعت</span>
+                                            </div>
+                                        </div>
+                                        <div class="text-green-600 font-bold text-tiny flex items-center">
+                                            <span style="margin-right: 45px">125,000 تومان</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="footer">
+        <div class="content">
+            <div class="custom-container my-10">
+                <div class="flex justify-between">
+                    <div class="">
+                        <span class="brand text-white">فروش فايل</span>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+                <div class="flex mt-10">
+                    <div class="w-1/3 pl-6 text-justify description">
+                        <h3 class="mb-3">درباره فروش فايل</h3>
+                        <span>فروش فايل یکی از پرتلاش‌ترین و بروزترین وبسایت های آموزشی در سطح ایران است که همیشه تلاش کرده تا بتواند جدیدترین و بروزترین مقالات و دوره‌های آموزشی را در اختیار علاقه‌مندان ایرانی قرار دهد. تبدیل کردن برنامه نویسان ایرانی به بهترین برنامه نویسان جهان هدف ماست.</span>
+                    </div>
+                    <div class="w-1/3 pr-5 description">
+                        <div class="mx-15">
+                            <h3 class="mb-3">بخش های سايت</h3>
+                            <ul>
+                                <li class="mb-3 mr-8">قوانین و مفررات</li>
+                                <li class="mb-3 mr-8">مدرسان</li>
+                                <li class="mb-3 mr-8">درباره ما</li>
+                                <li class="mb-3 mr-8">ارتباط با ما</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="w-1/3 description">
+                        <div class="">
+                            <h3 class="mb-3">ارتباط با من</h3>
+                            <div class="flex justify-between mb-3">
+                                    <span class="flex">
+                                        <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-2">
+                                          <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                                        </svg>
+                                        ایمیل :
+                                    </span>
+                                <a href="mailto:novinarahmani951@gmail.com">novinarahmani951@gmail.com</a>
+                            </div>
+                            <div class="flex justify-between mb-3">
+                                    <span class="flex">
+                                    <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-2">
+                                      <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 01-.825-.242m9.345-8.334a2.126 2.126 0 00-.476-.095 48.64 48.64 0 00-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0011.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155" />
+                                    </svg>
+                                        آیدی شاد :
+                                    </span>
+                                <a dir="ltr" href="#">@shad</a>
+                            </div>
+                            <div class="flex justify-between mb-3">
+                                    <span class="flex">
+                                        <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-2">
+                                          <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
+                                        </svg>
+                                        شماره تماس :
+                                    </span>
+                                <a href="tel:+98">0911111111</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 </html>
